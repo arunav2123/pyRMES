@@ -1,7 +1,7 @@
-# pyRMES
- Reduced resistive MHD eigenvalue solver (RMES) in cylindrical geometry (in the limit of zero plasma beta)
+# pyRMS
+ Reduced resistive MHD Solver(RMS) for both time-dependent and eigenvalue problems (for a given safety factor profile, resistivity, and viscosity) in cylindrical geometry (in the limit of zero plasma beta)
  
- This tool is written in Python 3.10.9 for - 
+ This tool is written in Python 3.10.9, suitable for - 
  1. Linear stable and unstable tearing mode and spectrum analysis (with complex eigenvalues). 
  2. Unstable tearing modes ( with almost real eigenvalue near marginal stability threshold).
  3. Resistive growth rates of unstable modes.
